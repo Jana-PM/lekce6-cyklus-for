@@ -10,7 +10,7 @@
 
 console.log('První příklad - vzestupná řada 0 - 10 WHILE' );
 
-let i=0
+let i=-1
 while(i<10){
     i=i+1
     console.log(i)
@@ -23,8 +23,8 @@ while(i<10){
 
 console.log('Druhý příklad - vzestupná řada 0 - 10 WHILE' );
 
-let a=0
-while(a<=10){
+let a=-1
+while(a<=9){
     a=a+1
     console.log(a)
 }
@@ -33,7 +33,7 @@ while(a<=10){
 // Třetí příklad - vypiš sestupně čísla od 10 do 0
 // console.log('Třetí příklad - sestupná řada 10 - 0');
 
-console.log('Třetí příklad - sestupná řada 0 - 10 WHILE' );
+console.log('Třetí příklad - sestupná řada 10 - 0 WHILE' );
 
 let b=11
 while (b>0){
